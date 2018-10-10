@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css';
-import HomeLayout from './Layout/HomeLayout';
+import Header from './Layout/Header';
+import Main from './Layout/MainContent/Main';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <HomeLayout></HomeLayout>
+        <Header />
+        <Main />
       </div>
     );
   }
